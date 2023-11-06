@@ -85,6 +85,7 @@ body {
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
+	font-size: 17px !important;
 }
 #about-me p {
 	width: 80%;
