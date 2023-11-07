@@ -107,6 +107,9 @@ body {
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
+.nav-link{
+	color: #000 !important;
+}
 
 .nav-link.active-tag{
 	background-color: #BEB45A;
@@ -154,6 +157,7 @@ body {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
+	font-size: 1.6rem;
 
 }
 .quote__author {
