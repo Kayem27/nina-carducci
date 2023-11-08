@@ -41,6 +41,7 @@ body {
 
 .social-link img {
 	width: 20px;
+	height: 20px;
 }
 
 #about {
@@ -49,6 +50,17 @@ body {
 	padding-inline: 100px;
 	padding-block: 100px;
 	position: relative;
+}
+/* dimmension img */
+#about img {
+	aspect-ratio: 1.01 / 1;
+	max-width: 100%;
+	height: auto;
+}
+#contact img {
+	aspect-ratio: 1 / 1;
+	max-width: 100%;
+	height: auto;
 }
 
 .picture.left::before {
@@ -70,7 +82,7 @@ body {
 
 .picture img {
 	width: 100%;
-
+	height: auto;
 }
 #about-me {
 	flex: 2
@@ -95,6 +107,12 @@ body {
 /* #gallery {
 		min-height: 100vh;
 } */
+
+.carousel-item img{
+	aspect-ratio: 2.16 / 1;
+	width: 100%;
+	height: auto;
+}
 .title{
 	text-align: center;
 	padding-block: 2em;
